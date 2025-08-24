@@ -4,106 +4,131 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yash Bhadane | Portfolio</title>
+    
+    <!-- Link to your CSS file -->
     <link rel="stylesheet" href="style.css" />
+    
+    <!-- Google Fonts (Poppins) - Recommended for the dark theme -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
+    <!-- Header Section -->
     <header>
-      <img src="/myph.png.png" alt="Profile Picture" class="profile-pic" />
+      <img src="photo.png" alt="Profile Picture" class="profile-pic" />
       <h1>Yash Bhadane</h1>
       <p>Aspiring Front-End Web Developer</p>
     </header>
 
+    <!-- Main Content Container -->
     <div class="container">
-      <!-- About Me -->
-      <section>
+      <!-- About Me Section -->
+      <section id="about">
         <h2>About Me</h2>
         <p>
-          I am a web development enthusiast focused on creating clean and
-          user-friendly interfaces. Passionate about learning new technologies
-          and turning ideas into reality through code.
+          I am a passionate web development enthusiast focused on creating clean, efficient, and user-friendly digital experiences. With a strong foundation in modern web technologies, I enjoy turning complex problems into elegant solutions through code and am always eager to learn and adapt in this ever-evolving industry.
         </p>
       </section>
 
-      <!-- Skills -->
-      <section>
+      <!-- Skills Section -->
+      <section id="skills">
         <h2>Skills</h2>
         <ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Responsive Design</li>
-          <li>JavaScript (Learning)</li>
-          <li>Git & GitHub</li>
+          <li>HTML5 & CSS3</li>
+          <li>JavaScript (ES6+)</li>
+          <li>Responsive Web Design</li>
+          <li>Git & GitHub for Version Control</li>
+          <li>Web Performance Optimization</li>
         </ul>
       </section>
 
-      <!-- Education -->
-      <section>
+      <!-- Education Section -->
+      <section id="education">
         <h2>Education</h2>
         <ul>
           <li><b>B.Tech in Artificial Intelligence & Data Science</b> — DYPCOE, [2024–2028]</li>
-          <li><b>HSC[2024]: </b>80%</li>
-          <li><b>SSC[2022]: </b>80%</li>
-          <li><b>1st Year CGPA: </b>9.05</li>
+          <li><b>Higher Secondary Certificate (HSC)</b> — [2024], 80%</li>
+          <li><b>Secondary School Certificate (SSC)</b> — [2022], 80%</li>
+          <li><b>First Year CGPA:</b> 9.05</li>
         </ul>
       </section>
 
-      <!-- Projects -->
-      <section>
+      <!-- Projects Section -->
+      <section id="projects">
         <h2>Projects</h2>
-        <div class="project-grid">
-          <div class="card">
-            <h3>SmartSpend - Budget Tracker</h3>
-            <p>Track your daily expenses and visualize spending habits.</p>
-            <a href="#">View Project</a>
+        <div class="project-list">
+
+          <!-- Project 1: Chronix E-Commerce Store -->
+          <div class="project-card">
+            <h3>Chronix - E-Commerce Watch Store</h3>
+            <p>A sleek and responsive e-commerce front-end for a luxury watch store. Features a modern UI, detailed product pages, a functional shopping cart, and a simulated checkout process, all built with vanilla HTML, CSS, and JavaScript.</p>
+            <!-- IMPORTANT: Replace '#' with your actual project link -->
+            <a href="#" target="_blank">View Project</a>
           </div>
-          <div class="card">
-            <h3>Spotify Clone</h3>
-            <p>Basic UI clone of Spotify music app using HTML and CSS.</p>
-            <a href="#">View Project</a>
+
+          <!-- Project 2: Weather App -->
+          <div class="project-card">
+            <h3>Dynamic Weather App</h3>
+            <p>A user-friendly weather application that provides real-time weather data using an external API. It features a clean interface, hourly/daily forecasts, dynamic weather icons, and details like humidity and wind speed.</p>
+            <!-- IMPORTANT: Replace '#' with your actual project link -->
+            <a href="#" target="_blank">View Project</a>
           </div>
-          <div class="card">
-            <h3>Recipe Page</h3>
-            <p>
-              Responsive and aesthetic recipe card project with CSS animations.
-            </p>
-            <a href="#">View Project</a>
+
+          <!-- Project 3: Recipe Card Website -->
+          <div class="project-card">
+            <h3>Interactive Recipe Card</h3>
+            <p>A visually appealing and responsive recipe card website. This project showcases strong CSS skills with a focus on layout, hover effects, and a clean presentation of cooking instructions, ingredients, and nutritional information.</p>
+            <!-- IMPORTANT: Replace '#' with your actual project link -->
+            <a href="#" target="_blank">View Project</a>
           </div>
+          
+          <!-- Project 4: SmartSpend Expense Tracker -->
+          <div class="project-card">
+            <h3>SmartSpend - Expense Tracker App</h3>
+            <p>A practical front-end for an expense tracking application. Users can log expenses, categorize them, and view a summary of their spending. This project demonstrates DOM manipulation and data handling with JavaScript.</p>
+            <!-- IMPORTANT: Replace '#' with your actual project link -->
+            <a href="#" target="_blank">View Project</a>
+          </div>
+
         </div>
       </section>
 
-      <!-- Resume -->
-      <section>
+      <!-- Resume Section -->
+      <section id="resume">
         <h2>Resume</h2>
-        <a href="#" class="resume-btn">Download Resume</a>
+        <!-- IMPORTANT: Replace '#' with the path to your resume PDF file -->
+        <a href="#" class="resume-btn" download>Download Resume</a>
       </section>
 
       <!-- Contact Section -->
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <ul>
-          <li><b>Email ID:</b> yashbhadane483@gmail.com</li>
-          <li><b>Mobile No:</b> 9588618720</li>
-          <li>
-            <b>LinkedIn:</b>
-            <a
-              href="https://www.linkedin.com/in/yash-bhadane-560230325"
-              target="_blank">
-              Visit my LinkedIn Profile
-            </a>
-          </li>
-          <li>
-            <b>GitHub:</b>
-            <a href="https://github.com/Yashzz26" target="_blank">
-              Visit my GitHub Profile
-            </a>
-          </li>
-        </ul>
-      </section>
-    </div>
+      
+<section id="contact">
+  <h2>Contact Me</h2>
+  <ul>
+    <li><b>Email:</b> yashbhadane483@gmail.com</li>
+    <li><b>Mobile:</b> 9588618720</li>
+    <li>
+      <b>LinkedIn:</b>
+      <a href="https://www.linkedin.com/in/yash-bhadane-560230325" target="_blank">
+        Visit my LinkedIn Profile
+      </a>
+    </li>
+    <li>
+      <b>GitHub:</b>
+      <a href="https://github.com/Yashzz26" target="_blank">
+        Visit my GitHub Profile
+      </a>
+    </li>
+  </ul>
+</section>
 
     <!-- Footer -->
     <footer>
       <p>&copy; 2025 Yash Bhadane. All rights reserved.</p>
     </footer>
+    
+    <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
   </body>
 </html>
